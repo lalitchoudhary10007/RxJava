@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.RxJava">
-        <activity android:name=".ui.ZipOperatorActivity">
+        <activity android:name=".ui.SearchActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -17,10 +17,11 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".ui.MapOperatorActivity"/>
-
+        <activity android:name=".ui.MergeAndConcatOperatorActivity" />
+        <activity android:name=".ui.FlatmapOperatorActivity" />
+        <activity android:name=".ui.ZipOperatorActivity" />
+        <activity android:name=".ui.MapOperatorActivity" />
         <activity android:name=".ui.MainActivity" />
-
     </application>
 
 </manifest>
